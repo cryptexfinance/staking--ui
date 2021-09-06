@@ -1,0 +1,82 @@
+@import "./colors";
+
+.card {
+  margin-top: 2rem;
+  width: 20rem;
+  border-radius: 2rem;
+  margin-right: 10rem;
+}
+
+.diamond {
+  border-top-right-radius: 2rem;
+  border-top-left-radius: 2rem;
+  height: 10rem;
+  background-image: url("../assets/images/welcome/diamond.svg");
+  background-repeat: repeat-x;
+  background-position: right bottom;
+  background-size: 8rem;
+  background-color: $purple;
+}
+
+.badge-highlight {
+  //border: 1px solid $highlight;
+  border-radius: 25px;
+  height: 30px;
+  border-color: $off-white;
+  background-color: $off-white;
+  color: $darker;
+  padding: 10px;
+  margin-right: 5px;
+  margin-bottom: 10px;
+}
+
+.avatar {
+  height: 100px;
+  width: 100px;
+  margin-top: -75px;
+  border-radius: 50%;
+}
+
+.blockie {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  margin-top: -75px;
+}
+
+.ethereum {
+  width: 15px;
+  margin-right: 2px;
+  margin-top: -2px;
+}
+
+
+.twitter {
+  height: 15px;
+  margin-right: 2px;
+  margin-top: -1px;
+}
+
+.github {
+  width: 15px;
+  margin-right: 2px;
+  margin-top: -2px;
+}
+
+h5 {
+  font-size: 1rem;
+  color: white;
+  clear: both;
+}
+
+
+.btn {
+  min-height: 3.375rem;
+  &:hover, &:active, &:focus {
+    color: white;
+  }
+}
+
+label{
+  color:$white;
+}

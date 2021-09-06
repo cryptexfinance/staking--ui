@@ -1,0 +1,30 @@
+@import "./colors";
+
+.header {
+  padding-top: 1.25rem;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding-right: 3rem;
+
+  svg {
+    vertical-align: top;
+    height: 1.5rem;
+  }
+
+  .btn {
+    background-color: $primary;
+    width: 15rem;
+    height: 3rem;
+    border-radius: 0;
+  }
+
+  .address {
+    color: white;
+  }
+
+  @media (max-width: 600px) {
+    padding-right: 0rem;
+    justify-content: center;
+    margin-top: 70px;
+  }
+}
