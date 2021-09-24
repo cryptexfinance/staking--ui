@@ -128,6 +128,34 @@ const ProfileCard = ({ address, action }: props) => {
               </a>
             </Badge>
           )}
+        </div>{" "}
+        <div>
+          <h5>Voting</h5>
+
+          {shortAddress && (
+            <Badge pill variant="highlight">
+              <img src={ethereumImg} className="ethereum" alt="ethereum logo" />
+              <a href={`https://etherscan.io/address/${address}`} target="_blank" rel="noreferrer">
+                200 Power
+              </a>
+            </Badge>
+          )}
+          {twitter && (
+            <Badge pill variant="highlight">
+              <img src={twitterImg} className="twitter" alt="twitter logo" />
+              <a href={`https://twitter.com/${twitter}`} target="_blank" rel="noreferrer">
+                {twitter}
+              </a>
+            </Badge>
+          )}
+          {github && (
+            <Badge pill variant="highlight">
+              <img src={githubImg} className="github" alt="github logo" />
+              <a href={`https://github.com/${github}`} target="_blank" rel="noreferrer">
+                {github}
+              </a>
+            </Badge>
+          )}
         </div>
         <h5 className="mt-2">Delegator Contract</h5>
         <Badge variant="highlight">
